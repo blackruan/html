@@ -118,94 +118,12 @@
         </div>
 
         <div class="panel panel-default">
-          <div class="panel-anchor" id="seam-carving"></div>
-
-          <div class="panel-heading">
-            <h3 class="panel-title panel-title-big">Parallel Seam Carving for Video Retargeting</h3>
-            CS766 Computer Vision - Course Project, Spring 2016. Team members: Jin Ruan, Clarence Cheung.<br>
-            <b>Technologies:</b> C++, OpenCV, Multi-Thread, Graph Cut
-          </div>
-
-          <div class="panel-body">
-            <div class="row">
-
-              <div class="col-md-5">
-                <img src="images/seam-carving.png" class="img-responsive img-thumbnail" alt="Seam Carving" />
-              </div>
-              <div class="col-md-7">
-                <p class="lead">                 
-                  This project was to propose a new approach for video retargeting that uses discontinuous seam-carving in both space and time for resizing videos in order to improve the poor speed performance of the original seam-carving algorithm by reducing computing complexity and parallelizing.
-                </p>                
-                <a class="btn btn-default" href="https://blackruan.github.io/seam-carving/" target="_blank">Project Webpage</a>
-                <a class="btn btn-default" href="https://blackruan.github.io/seam-carving/766docs/cs766final_cheung_ruan.pdf?" target="_blank">Final Report</a>
-                <a class="btn btn-default" href="https://github.com/blackruan/seam-carving" target="_blank">Github Repository</a>
-                <a class="btn btn-default" data-toggle="collapse" href="#seam-carving-details" aria-expanded="false" aria-controls="seam-carving-details">More Info >></a>
-              </div>
-
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <div id="seam-carving-details" class="collapse">
-                  <div class="well well-margin-top">
-                    <p>
-                      First, we implement the seam-carving algorithm in papers <a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/" target="_blank">Seam Carving for Content-Aware Image Resizing</a> and <a href="http://www.faculty.idc.ac.il/Arik/SCWeb/vidret/index.html" target="_blank">Improved Seam Carving for Video Retargeting</a>. We notice that the seam-carving algorithm for videos in the paper runs fairly slow. Thus, in our new approach we calculate the seam for each frame seperately while using the look-ahead energy to maintain the temporal coherency between frames. We implement and parallelize this algorithm with OpenCV in C++ and achieve considerable speed improvements while keeping the same carving power as the algorithm in the papers.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-anchor" id="northern-hemisphere"></div>
-
-          <div class="panel-heading">
-            <h3 class="panel-title panel-title-big">Predicting the Northern Hemisphere Sea Ice Extent</h3>
-            CS761 Advanced Machine Learning - Course Project, Spring 2016. Team members: Jin Ruan, Guangshan Chen.<br>
-            <b>Technologies:</b> IPython, Neural Networks, Time Series
-          </div>
-
-          <div class="panel-body">
-            <div class="row">
-
-              <div class="col-md-5">
-                <img src="images/northern-hemisphere.png" class="img-responsive img-thumbnail" alt="Northern Hemisphere" />
-              </div>
-              <div class="col-md-7">
-                <p class="lead">                 
-                  This project was to propose a new approach to predicting the Northern Hemisphere sea ice extent using <b>Time Lagged Neural Networks (TLNN)</b> with adding external forcing (Solar radiation and CO2). And our new model can capture the main features of Northern Hemisphere sea ice change as predicted by the complexing numerical models while it is simpler and less computationally expensive.
-                </p>
-                <a class="btn btn-default" href="documents/northern-hemisphere.pdf" target="_blank">Final Report</a>
-                <a class="btn btn-default" href="https://github.com/blackruan/arctic-sea-ice" target="_blank">Github Repository</a>
-                <!-- <a class="btn btn-default" data-toggle="collapse" href="#northern-hemisphere-details" aria-expanded="false" aria-controls="northern-hemisphere-details">More Info >></a> -->
-              </div>
-
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <div id="northern-hemisphere-details" class="collapse">
-                  <div class="well well-margin-top">
-                    <p>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="panel panel-default">
           <div class="panel-anchor" id="data-matching"></div>
 
           <div class="panel-heading">
             <h3 class="panel-title panel-title-big">Data Matching for Restaurants from Yelp and Yellow Pages</h3>
-            CS784 Data Models and Languages - Course Project, Fall 2015. Team members: Jin Ruan, Clarence Cheung.<br>
-            <b>Technologies:</b> IPython, Web Crawler, Machine Learning
+            CS784 Data Models and Languages, Fall 2015. Team members: <i>Jin Ruan, Clarence Cheung.</i><br>
+            <b>Technologies:</b> Python, Web Crawler, Machine Learning
           </div>
 
           <div class="panel-body">
@@ -259,9 +177,9 @@
           <div class="panel-anchor" id="food-paradise"></div>
 
           <div class="panel-heading">
-            <h3 class="panel-title panel-title-big">Food Paradise - a Yelp-like web application</h3>
-            CS564 Database Management Systems - Course Project, Spring 2015. Team members: Jin Ruan, Qing Li, Shuang Wu.<br>
-            <b>Technologies:</b> JSP, Apache Struts2, Apache Tomcat, MySQL, Bootstrap
+            <h3 class="panel-title panel-title-big">Food Paradise - Restaurant Rating Web Application</h3>
+            CS564 Database Management Systems, Spring 2015. Team members: <i>Jin Ruan, Qing Li, Shuang Wu.</i><br>
+            <b>Technologies:</b> JSP, Apache Struts 2, Apache Tomcat, MySQL, Bootstrap
           </div>
 
           <div class="panel-body">
@@ -307,7 +225,7 @@
 
           <div class="panel-heading">
             <h3 class="panel-title panel-title-big">Prediction of Zygosity Status of Twins using Machine Learning</h3>
-            CS760 Machine Learning - Course Project, Spring 2015. Team members: Jin Ruan, Yicun Ni, Ying Zhang.<br>
+            CS760 Machine Learning, Spring 2015. Team members: <i>Jin Ruan, Yicun Ni, Ying Zhang.</i><br>
             <b>Technologies:</b> Java, Expectation-Maximization, Bayes Network, Hypothesis Test
           </div>
 
@@ -341,18 +259,100 @@
           </div>
         </div>
 
+        <div class="panel panel-default">
+          <div class="panel-anchor" id="seam-carving"></div>
+
+          <div class="panel-heading">
+            <h3 class="panel-title panel-title-big">Parallel Seam Carving for Video Retargeting</h3>
+            CS766 Computer Vision, Spring 2016. Team members: <i>Jin Ruan, Clarence Cheung.</i><br>
+            <b>Technologies:</b> C++, OpenCV, Multi-Thread, Min-Cut
+          </div>
+
+          <div class="panel-body">
+            <div class="row">
+
+              <div class="col-md-5">
+                <img src="images/seam-carving.png" class="img-responsive img-thumbnail" alt="Seam Carving" />
+              </div>
+              <div class="col-md-7">
+                <p class="lead">                 
+                  This project was to propose a new approach for video retargeting that uses discontinuous seam-carving in both space and time for resizing videos in order to improve the poor speed performance of the original seam-carving algorithm by reducing computing complexity and parallelizing.
+                </p>                
+                <a class="btn btn-default" href="https://blackruan.github.io/seam-carving/" target="_blank">Project Webpage</a>
+                <a class="btn btn-default" href="https://blackruan.github.io/seam-carving/766docs/cs766final_cheung_ruan.pdf?" target="_blank">Final Report</a>
+                <a class="btn btn-default" href="https://github.com/blackruan/seam-carving" target="_blank">Github Repository</a>
+                <a class="btn btn-default" data-toggle="collapse" href="#seam-carving-details" aria-expanded="false" aria-controls="seam-carving-details">More Info >></a>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div id="seam-carving-details" class="collapse">
+                  <div class="well well-margin-top">
+                    <p>
+                      First, we implement the seam-carving algorithm in papers <a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/" target="_blank">Seam Carving for Content-Aware Image Resizing</a> and <a href="http://www.faculty.idc.ac.il/Arik/SCWeb/vidret/index.html" target="_blank">Improved Seam Carving for Video Retargeting</a>. We notice that the seam-carving algorithm for videos in the paper runs fairly slow. Thus, in our new approach we calculate the seam for each frame seperately while using the look-ahead energy to maintain the temporal coherency between frames. We implement and parallelize this algorithm with OpenCV in C++ and achieve considerable speed improvements while keeping the same carving power as the algorithm in the papers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-anchor" id="northern-hemisphere"></div>
+
+          <div class="panel-heading">
+            <h3 class="panel-title panel-title-big">Predicting the Northern Hemisphere Sea Ice Extent</h3>
+            CS761 Advanced Machine Learning, Spring 2016. Team members: <i>Jin Ruan, Guangshan Chen.</i><br>
+            <b>Technologies:</b> Python, Neural Networks, Time Series
+          </div>
+
+          <div class="panel-body">
+            <div class="row">
+
+              <div class="col-md-5">
+                <img src="images/northern-hemisphere.png" class="img-responsive img-thumbnail" alt="Northern Hemisphere" />
+              </div>
+              <div class="col-md-7">
+                <p class="lead">                 
+                  This project was to propose a new approach to predicting the Northern Hemisphere sea ice extent using <b>Time Lagged Neural Networks (TLNN)</b> with adding external forcing (Solar radiation and CO2). And our new model can capture the main features of Northern Hemisphere sea ice change as predicted by the complexing numerical models while it is simpler and less computationally expensive.
+                </p>
+                <a class="btn btn-default" href="documents/northern-hemisphere.pdf" target="_blank">Final Report</a>
+                <a class="btn btn-default" href="https://github.com/blackruan/arctic-sea-ice" target="_blank">Github Repository</a>
+                <!-- <a class="btn btn-default" data-toggle="collapse" href="#northern-hemisphere-details" aria-expanded="false" aria-controls="northern-hemisphere-details">More Info >></a> -->
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div id="northern-hemisphere-details" class="collapse">
+                  <div class="well well-margin-top">
+                    <p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
 
       <div class="col-md-3">
         <div id="sidebar" class="hidden-xs" data-spy="affix" data-offset-top="250">
           <ul class="nav nav-pills nav-stacked">
             <li><a href="#recommender-system">Movie Recommender System</a></li>
-            <li><a href="#auto-complete">Google Search Auto Complete</a></li>                    
-            <li><a href="#seam-carving">Parallel Seam Carving</a></li>
-            <li><a href="#northern-hemisphere">Predicting the Northern Hemisphere</a></li>
+            <li><a href="#auto-complete">Google Search Auto Complete</a></li>                                           
             <li><a href="#data-matching">Data Matching for Restaurants</a></li>
             <li><a href="#food-paradise">Food Paradise</a></li>
             <li><a href="#zygosity-status">Prediction of Zygosity Status</a></li>
+            <li><a href="#seam-carving">Parallel Seam Carving</a></li>
+            <li><a href="#northern-hemisphere">Predicting the Northern Hemisphere</a></li>
           </ul>
         </div>
       </div>
